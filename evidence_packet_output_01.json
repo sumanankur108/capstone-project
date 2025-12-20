@@ -1,0 +1,94 @@
+{
+  "complaint_id": "CMP-2025-00089",
+  "customer_id": "100034",
+  "sales_order": {
+    "VBAK": {
+      "VBELN": "49000199",
+      "VKORG": "1000",
+      "VTWEG": "10",
+      "SPART": "01",
+      "KUNNR": "100034",
+      "BSTNK": "PO-2025-00173",
+      "AUDAT": "2025-11-20",
+      "WAERK": "INR"
+    },
+    "VBAP": [
+      {
+        "VBELN": "49000199",
+        "POSNR": "10",
+        "MATNR": "SKU-RTX-500",
+        "MAKTX": "Wireless Router XT-500",
+        "KWMENG": 10,
+        "MEINS": "EA",
+        "EDATU": "2025-11-25"
+      }
+    ]
+  },
+  "delivery": {
+    "LIKP": {
+      "VBELN": "80001234",
+      "KUNNR": "100034",
+      "LFDAT": "2025-11-25",
+      "STATUS": "IN_TRANSIT"
+    },
+    "LIPS": [
+      {
+        "VBELN": "80001234",
+        "POSNR": "10",
+        "MATNR": "SKU-RTX-500",
+        "LFIMG": 10,
+        "MEINS": "EA"
+      }
+    ]
+  },
+  "billing": {
+    "VBRK": {
+      "VBELN": "90004567",
+      "FKDAT": "2025-11-26",
+      "KUNNR": "100034",
+      "WAERK": "INR"
+    },
+    "VBRP": [
+      {
+        "VBELN": "90004567",
+        "POSNR": "10",
+        "MATNR": "SKU-RTX-500",
+        "FKIMG": 10,
+        "MEINS": "EA",
+        "NETWR": 45990.0
+      }
+    ]
+  },
+  "interaction_history": {
+    "complaint_id": "CMP-2025-00089",
+    "customer_id": "100034",
+    "records": [
+      {
+        "channel": "email",
+        "timestamp": "2025-11-26T10:05:00",
+        "agent": "cust",
+        "message": "Where is our delivery?"
+      },
+      {
+        "channel": "chat",
+        "timestamp": "2025-11-26T16:30:00",
+        "agent": "csr",
+        "message": "We are checking with logistics."
+      }
+    ]
+  },
+  "summary": {
+    "issue": "Shipment delay vs requested date (EDATU 2025-11-25)",
+    "current_status": "IN_TRANSIT",
+    "last_event": {
+      "timestamp": "2025-11-25T10:30:00",
+      "event": "DISPATCHED",
+      "location": "BLR HUB"
+    }
+  },
+  "completeness_flag": true,
+  "validation_status": "pass",
+  "accuracy_score": 0.98,
+  "timestamp": "2025-11-28T17:06:56",
+  "agent_id": "ECA-01"
+}

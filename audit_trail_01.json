@@ -1,0 +1,44 @@
+{
+  "audit": [
+    {
+      "workflow_step": "Complaint_Classifier",
+      "agent_id": "CLA-01",
+      "timestamp": "2025-11-28T17:06:56",
+      "status": "classified",
+      "complaint_id": "CMP-2025-00089",
+      "customer_id": "100034"
+    },
+    {
+      "workflow_step": "Evidence_Collector",
+      "agent_id": "ECA-01",
+      "timestamp": "2025-11-28T17:06:56",
+      "status": "evidence_ready",
+      "complaint_id": "CMP-2025-00089",
+      "customer_id": "100034"
+    },
+    {
+      "workflow_step": "Remedy_Planner",
+      "agent_id": "RPA-01",
+      "timestamp": "2025-11-28T17:06:56",
+      "status": "plan_ready",
+      "complaint_id": "CMP-2025-00089",
+      "customer_id": "100034"
+    },
+    {
+      "workflow_step": "Credit_Trigger",
+      "agent_id": "CTA-01",
+      "timestamp": "2025-11-28T17:06:56",
+      "status": "credit_approved",
+      "complaint_id": "CMP-2025-00089",
+      "customer_id": "100034"
+    },
+    {
+      "workflow_step": "Customer_Communicator",
+      "agent_id": "COM-01",
+      "timestamp": "2025-11-28T17:06:56",
+      "status": "message_sent",
+      "complaint_id": "CMP-2025-00089",
+      "customer_id": "100034"
+    }
+  ]
+}

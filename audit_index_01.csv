@@ -1,0 +1,6 @@
+workflow_step,agent_id,timestamp,status,complaint_id,customer_id
+Complaint_Classifier,CLA-01,2025-11-28T17:06:56,classified,CMP-2025-00089,100034
+Evidence_Collector,ECA-01,2025-11-28T17:06:56,evidence_ready,CMP-2025-00089,100034
+Remedy_Planner,RPA-01,2025-11-28T17:06:56,plan_ready,CMP-2025-00089,100034
+Credit_Trigger,CTA-01,2025-11-28T17:06:56,credit_approved,CMP-2025-00089,100034
+Customer_Communicator,COM-01,2025-11-28T17:06:56,message_sent,CMP-2025-00089,100034

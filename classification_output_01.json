@@ -1,0 +1,13 @@
+{
+  "complaint_id": "CMP-2025-00089",
+  "customer_id": "100034",
+  "category": "Delivery Delay",
+  "severity_level": "Medium",
+  "priority_tag": "P2",
+  "routing_queue": "EvidenceCollector-Delivery",
+  "accuracy_score": 0.97,
+  "validation_status": "pass",
+  "timestamp": "2025-11-28T17:06:56",
+  "agent_id": "CLA-01",
+  "workflow_step": "Complaint_Classifier"
+}

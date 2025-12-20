@@ -1,0 +1,17 @@
+{
+  "complaint_id": "CMP-2025-00089",
+  "to": {
+    "name": "Anita Rao",
+    "email": "anita.rao@acmeretail.example"
+  },
+  "body": "Hello Anita Rao, we apologise for the delay. New ETA: 2025-11-28. A goodwill credit of 2299.50 INR has been approved.\n\nRegards,\nCustomer Care",
+  "dispatch_channel": "email",
+  "tone": "empathetic",
+  "compliance": {
+    "gdpr": true,
+    "brand": true
+  },
+  "validation_status": "pass",
+  "timestamp": "2025-11-28T17:06:56",
+  "agent_id": "COM-01"
+}

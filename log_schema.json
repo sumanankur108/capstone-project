@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "workflow_step": "Agent step name",
+    "agent_id": "Unique agent identifier",
+    "timestamp": "ISO timestamp",
+    "status": "Outcome",
+    "complaint_id": "Unique complaint identifier",
+    "customer_id": "SAP KNA1-KUNNR"
+  }
+}
